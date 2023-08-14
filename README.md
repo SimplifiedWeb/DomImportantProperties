@@ -64,6 +64,23 @@ value dega same up and down ke liye bhi hai. jitna neeche ayenge utna increase h
         box.style.transform = "translateX(0)";
       }
     </code></pre>
+
+        <p>now you see in this example, i target the seconsection contianer that has the widht of 100vw and height of 100vh
+
+and what I'm doing here, see the if statement, what it means, innerHeight is greater than secondSectionMove.top
+then run that inside thing.
+
+innerHeight gives us height of the visible portion of the screen.
+and i use the scroll event to my function and by default if i can't scroll the value should be 0 right,
+so when i scroll down the value gonna increase step by step so when we incounter our section we see the transition
+effect.
+
+we can do some more calculation like multiply it or divide it by 2 at innerHeight to get the effect at the 
+half of the screen when we scroll down. 
+
+
+you can practice and try it on you own you can understand that better. 
+</p>
   </div>
 </body>
 </html>
