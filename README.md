@@ -5,14 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body>
+  <h1>Zoom it and Read it Carefully I explained this in detail, You'll understand that correctly and Use it on your own</h1>
+  <h4> understand the concepts and try it for one time</h4>
   <div class="section">
     <h2>offset (X and Y)</h2>
     <p>so when you use the offset property in any of the element that give the distance value from that particular target element. for example, a box have width of 300px and height of 300px and you target this box by, using some event, like click, mousemove etc and try to print the offset of that event.offsetX or Y, then you see that the offset give you the value from the target point. if you click on the center of the box, the distance from top and left to the point you target, the value you get. so remember that this property provides you the distance values from the specified point within the target element.</p>
+    <h5>In hindi means, jab box ke kisi bhi jagah par click karenge then wo jagah se lekar edges tak ki value miligei
+uss particualar box mai, agr beech mai click karenge to center se top tak ke value and left tak ki vlaue milegi,
+ye sirf wo particular box tak hee rahaige
+
+so remember that this property provides you the distance values from the specified point withing the target element.</h5>
   </div>
 
   <div class="section">
     <h2>client (X and Y)</h2>
     <p>so this property basically gives you the entire webpage viewport which is visible to you screen, That is the only difference between offset and client. client give you the full widht and height of the visible part of your screen. so when you click on the right side it give you the distance from the left to right like if you click on the right side of the viewport then it give you like 1230px for example. and one you click on the left side fo the viewport then it give you like 10px for example. so basically we it gives the value of the visible portion of the screen. if we shrink the window make it smaller then these client property gonna reflect and change accordingly. so remeber that client used for entire viewport section. and offset used for target element. it calculate only the distance values from that particular target container.</p>
+
+    <h5>In Hindi,
+Jitna apne ko screen pe show hota hai utni pure ko ye target karta hai so apun agar ismai koi event lagyenge or try
+karenge log karne ka to smjhe ga, jitna mai mouse right mai leke jonga utni uski value badegi, it doesn't matter
+ki wo jagah pe kitne element hai, maine bola jitna dikhrah hai white screen wo sab kuch consider karega.
+so ye pure viewport ke liye hai, agge leke jayenge to increase value dega left kee taraf leke jayenge to decrease
+value dega same up and down ke liye bhi hai. jitna neeche ayenge utna increase hogi jitna uper jayenge utna decrase hogi.</h5>
   </div>
 
   <div class="section">
