@@ -75,6 +75,11 @@ and i use the scroll event to my function and by default if i can't scroll the v
 so when i scroll down the value gonna increase step by step so when we incounter our section we see the transition
 effect.
 
+getboudindClienReat watching the scroll that user performing how much is the distance from the top to the section2 where i use the property. the more we come close to that section the less value of 
+top we get.
+
+in Hindi, secondSectionMove.top ka mtlb ye hai ki bhai ye jo container hai mera section2 jismai maine property lagaya hai wo ye dekh rha hai ki kitna fasla hai uper se mere container thk getBoudingClientREact ye dekh raha, jaise jaise mai scroll karke uske nazdeek araha ho waise waise uski top ki vale come horahi hai, understand. and innerHeight to malum hai apko. Now calculate you will understand better
+
 we can do some more calculation like multiply it or divide it by 2 at innerHeight to get the effect at the 
 half of the screen when we scroll down. 
 
