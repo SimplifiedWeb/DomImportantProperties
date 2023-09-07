@@ -70,6 +70,8 @@ value dega same up and down ke liye bhi hai. jitna neeche ayenge utna increase h
 and what I'm doing here, see the if statement, what it means, innerHeight is greater than secondSectionMove.top
 then run that inside thing.
 
+You understand the statement, the top property measures the value from the top to the target element. We scroll down the value gonna decreased when it reaching to the target element where we use the top proerty when the value gonna decrease the statement gonna true.
+
 innerHeight gives us height of the visible portion of the screen.
 and i use the scroll event to my function and by default if i can't scroll the value should be 0 right,
 so when i scroll down the value gonna increase step by step so when we incounter our section we see the transition
