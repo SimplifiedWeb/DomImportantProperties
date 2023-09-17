@@ -47,6 +47,8 @@ value dega same up and down ke liye bhi hai. jitna neeche ayenge utna increase h
   <div class="section">
     <h2>innerHeight and innerWidth</h2>
     <p>Basically a viewPort height, if we shrink its values get changed. it gives us the height and the widht of the visible portion of our screen in webpage.</p>
+    <p>So dont get confused between client X and Y property they are used to target the event occuring iside the viewPort page, in this we are measuring the content 
+    space area it basically used for responsive design layouts. It gives values excluding toolbar, scroolBar. It provides us dimensions of the browser content area. </p>
   </div>
 
   <div class="section">
